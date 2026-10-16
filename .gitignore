@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Secrets and API keys (never commit these!)
+.env
+.streamlit/secrets.toml
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
